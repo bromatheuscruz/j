@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #04153a;
+  font-family: "Mountains of Christmas", cursive;
+  padding-top: 20px;
+}
+
+.from-to-container {
+  display: block;
+}
+
+.initial-message-container {
+  margin: 25px;
+  border-radius: 5px;
+  background-color: #eff6fc;
+  color: #a51b10;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #04153a;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-8 {
+  flex: 8;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+h1, h2, h3, h4, h6 {
+  color: #eff6fc;
+}
+
+p, h5 {
+  color: #04153a;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.message-container {
+    background-color: #eff6fc;
+    border-radius: 5px;
+    max-height: 100%;
+    margin: 25px;
+    padding: 25px;
+    
+}
+
+.text-red {
+  color: #a51b10;
+}
+
+.text-white {
+  color: #eff6fc;
+}
+
+.text-primary {
+  color: #04153a;
+}
+
+.text-align-center {
+  text-align: center;
+}
