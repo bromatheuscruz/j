@@ -85,3 +85,12 @@ p, h5 {
 .text-align-center {
   text-align: center;
 }
+
+.btn {
+  background-color: white;
+  border-radius: 5px;
+  color: #04153a;
+  padding: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
